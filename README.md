@@ -45,7 +45,9 @@ urllib3                  1.26.12
 virtualenv               20.16.7
 virtualenv-clone         0.5.7
 
-JSON File has been included for Google Service Account, required for Google Cloud BigQuery
+JSON File has been included for Google Service Account, required for Google Cloud BigQuery.
+
+Google has informed me that publishing my own service account JSON file is bad practice, so I have disabled it and removed the file. Please insert your own JSON for Google BigQuery into the root folder of the program.
 
 # Earls Technical Assignment
 
