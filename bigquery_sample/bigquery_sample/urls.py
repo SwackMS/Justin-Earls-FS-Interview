@@ -21,5 +21,7 @@ import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('admin/', admin.site.urls),
+    path('latest_hacker_news/', views.hacker_news, name='hacker_news'),
+    path('most_commits/', views.github, name='github'),
 ]
 

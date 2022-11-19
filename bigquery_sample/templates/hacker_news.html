@@ -1,0 +1,10 @@
+<h1>Latest Hacker News</h1>
+{% if query_job %}
+    <ol>
+    {% for row in query_job %}
+        <li>{{ row.title }}, {{ row.author }}, {{ row.time_ts }}</li>
+    {% endfor %}
+    </ol>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
